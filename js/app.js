@@ -371,10 +371,7 @@ $(".p2 .e2-1").on("touchend",function(){
     $.post("db/adduser.php", {name: name,email: email,phone: phone,whoyouare: whoyouare,lookingforshmadness: lookingforshmadness,openid:openid,nickname:nickname,headimgurl:headimgurl},function(r){
         if(r.code == "0" || r.code == "1"){
             if(payfor == 1){
-                //app.p2.callpay();
-                $.post("wxpay/pub/updatepaystatus.php",{attach:nickname,openid:openid,out_trade_no:1,transaction_id:1 },function (e) {
-                    console.log(e);
-                });
+                app.p2.callpay();
             }else {
                 app.p2.post_addusernum();
             }

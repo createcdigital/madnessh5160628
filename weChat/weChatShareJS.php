@@ -34,7 +34,7 @@
     ====================================================== */
     var app = app || {};
     app.wechat = function(){};
-    app.wechat.sharecontent = {title: "Register 22/7 MADNESS Event",
+    app.wechat.sharecontent = {title: "Register 9/9 MADNESS Event",
                                  desc:"Join me on MADNESS - Get madly inspired and connect with crazy people",
                                  titleformoment:"Join me on MADNESS - Get madly inspired and connect with crazy people", 
                                  url: "https://pay.wechat.createcdigital.com/madnessh5160628/",

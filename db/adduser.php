@@ -73,7 +73,7 @@
             	echo json_encode(array('code'=>4,'lookingforshmadness'=>'Send Fail'));
             }
            /* close statement */
-			$stmt->close();
+			$stmt->close(); 
 	}
     else
     	echo json_encode(array('code'=>5,'lookingforshmadness'=>'Send Fail'));

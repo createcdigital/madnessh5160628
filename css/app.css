@@ -195,7 +195,6 @@ body {
 	top: 520px;
 	left: 280px;
 	z-index: 200;
-	color: #007aff;
 }
 
 .l-6 {
@@ -325,7 +324,7 @@ body {
 	top: 592px;
 	left: 113px;
 	padding-left: 55px;
-             
+
 }
 .p2 select >option{color: #A57D2F;}
 .p2 .e2-6  .e2-7 option {
@@ -355,28 +354,28 @@ body {
 
 .p3 .e3-1 {
 	position: absolute;
-	top: 605px;
-	left: 195px;
-	width: 223px;
-	height: 223px;
+	top: 682px;
+	left: 163px;
+	width: 291px;
+	height: 291px;
 	border: 12px solid #70ad47;
 }
 
 .p3 .e3-2 {
 	position: absolute;
-	top: 368px;
+	top: 360px;
 	left: 100px;
 	color: #a6a6a8;
 }
 .p3 .e3-3 {
 	position: absolute;
-	top: 432px;
+	top: 415px;
 	left: 100px;
 	color: #a6a6a8;
 }
 .p3 .e3-4 {
 	position: absolute;
-	top: 505px;
+	top: 475px;
 	left: 100px;
 	color: #a6a6a8;
 }
@@ -388,7 +387,7 @@ body {
 	width: 410px;
 	margin-left: 0px;
 	margin-top: 0px;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: normal;
 	background-color: transparent;
 	color: #A57D2F;
@@ -398,55 +397,6 @@ body {
 	padding-left: 15px;
 	-webkit-appearance: none;
 
-}
-
-
-/*p5-1*/
-.p5 .con-1{
-	width: 300px;
-	height: 40px;
-	color: #A57D2F;
-	text-align: left;
-	vertical-align: middle;
-	font-size: 28px;
-	font-weight: bold;
-	font-family: Microsoft YaHei, "微软雅黑", "黑体", "宋体", Arial;
-}
-.p5 .e-1-1{
-	position: absolute;
-	top: 405px;
-	left: 127px;
-	animation: zoomIn 1s linear;
-	-webkit-animation: zoomIn 1s linear;
-}
-.p5 .e-2-1{
-	position: absolute;
-	top: 560px;
-	left: 212px;
-}
-.p5 .e-3-1{
-	position: absolute;
-	top: 646px;
-	left: 212px;
-}
-.p5 .e-4-1{
-	position: absolute;
-	top: 739px;
-	left: 212px;
-}
-.p5 .e-5-1{
-	position: absolute;
-	top: 776px;
-	left: 440px;
-	animation: bounce 1s infinite linear;
-	-webkit-animation: bounce infinite 1s linear;
-}
-.p5 .gotopay-1{
-	position: absolute;
-	top: 880px;
-	left: 200px;
-	height: 60px;
-	width: 240px;
 }
 
 .op{
